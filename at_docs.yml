@@ -1,4 +1,4 @@
-name: at-docs
+name: at_docs
 
 on:
 pull_request:
