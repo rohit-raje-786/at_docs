@@ -5,9 +5,10 @@ name: at_docs
 
 on:
   push:
-    branches: [ trunk ]
   pull_request:
-    branches: [ trunk ]
+  branches:
+    - master
+    - develop
 
 jobs:
   build:
